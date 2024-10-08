@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/ingdiegoc/Library/Mobile Documents/com~apple~CloudDocs/Sena/2024/Portafolio2024-1/Portafolio ADSO ID 2692929/PLAN DE MEJORAMIENTO/elementosDeFormacion/.venv/bin/python3.12" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
